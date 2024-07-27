@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: ingress-cpr-demo
+  name: eigenai-cpr-ingress
   annotations:
     alb.ingress.kubernetes.io/load-balancer-name: ssl-ingress
     alb.ingress.kubernetes.io/scheme: internet-facing
