@@ -30,7 +30,21 @@ spec:
               service:
                 name: moversly-nodeport-service
                 port: 
-                  number: 80                   
+                  number: 80       
+          - path: /growsari
+            pathType: Prefix
+            backend:
+              service:
+                name: growsari-nodeport-service
+                port: 
+                  number: 80                  
+          - path: /hipvan
+            pathType: Prefix
+            backend:
+              service:
+                name: hipvan-nodeport-service
+                port: 
+                  number: 80     
           - path: /
             pathType: Prefix
             backend:
