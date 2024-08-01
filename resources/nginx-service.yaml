@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx:latest
+          image: 828109562156.dkr.ecr.ap-southeast-2.amazonaws.com/eigenai:nginx-landing-240729105707
           ports:
             - containerPort: 80
 ---
